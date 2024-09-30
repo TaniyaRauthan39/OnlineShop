@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MultiShop - Online Shop Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid">
+        <div class="row bg-warning-subtle py-1 px-xl-5">
+            <div class="col-lg-6 d-none d-lg-block">
+                <div class="d-inline-flex align-items-center h-100">
+                    <a class="text-dark-emphasis mr-3" href="">About</a>
+                    <a class="text-dark-emphasis mr-3" href="">Contact</a>
+                    <a class="text-dark-emphasis mr-3" href="">Help</a>
+                    <a class="text-dark-emphasis mr-3" href="">FAQs</a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-light btn-outline-success dropdown-toggle" data-toggle="dropdown">My Account</button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <button class="dropdown-item" type="button">Sign in</button>
+                            <button class="dropdown-item" type="button">Sign up</button>
+                        </div>
+                    </div>
+                    <div class="btn-group mx-2">
+                        <button type="button" class="btn btn-sm btn-light btn-outline-success dropdown-toggle" data-toggle="dropdown">USD</button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <button class="dropdown-item" type="button">EUR</button>
+                            <button class="dropdown-item" type="button">GBP</button>
+                            <button class="dropdown-item" type="button">CAD</button>
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-success btn-light dropdown-toggle" data-toggle="dropdown">EN</button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <button class="dropdown-item" type="button">FR</button>
+                            <button class="dropdown-item" type="button">AR</button>
+                            <button class="dropdown-item" type="button">RU</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-inline-flex align-items-center d-block d-lg-none">
+                    <a href="" class="btn px-0 ml-2">
+                        <i class="fas fa-heart text-dark"></i>
+                        <span class="badge text-dark border border-dark rounded-circle" style="padding-bottom: 2px;">0</span>
+                    </a>
+                    <a href="" class="btn px-0 ml-2">
+                        <i class="fas fa-shopping-cart text-dark"></i>
+                        <span class="badge text-dark border border-dark rounded-circle" style="padding-bottom: 2px;">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
+            <div class="col-lg-4">
+                <a href="" class="text-decoration-none">
+                    <span class="h1 text-uppercase text-primary-emphasis bg-primary-subtle px-2">Multi</span>
+                    <span class="h1 text-uppercase text-warning-emphasis bg-danger-subtle px-2 ml-n1">Shop</span>
+                </a>
+            </div>
+            <div class="col-lg-4 col-6 text-left">
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for products">
+                        <div class="input-group-append">
+                            <span class="input-group-text bg-transparent text-info">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-4 col-6 text-right">
+                <p class="m-0 text-warning">Customer Service</p>
+                <h5 class="m-0 text-info">+91 9047589912</h5>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-dark mb-30">
+        <div class="row px-xl-5">
+            <div class="col-lg-3 d-none d-lg-block">
+                <a class="btn d-flex align-items-center justify-content-between bg-info w-100" data-toggle="collapse" href="#navbar-vertical" style="height: 65px; padding: 0 30px;">
+                    <h6 class="text-dark-emphasis m-0"><i class="fa fa-bars mr-2"></i>Categories</h6>
+                    <i class="fa fa-angle-down text-dark"></i>
+                </a>
+                <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 bg-light" id="navbar-vertical" style="width: calc(100% - 30px); z-index: 999;">
+                    <div class="navbar-nav w-100">
+                        <div class="nav-item dropdown dropright">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dresses <i class="fa fa-angle-right float-right mt-1"></i></a>
+                            <div class="dropdown-menu position-absolute rounded-0 border-0 m-0">
+                                <a href="" class="dropdown-item">Men's Dresses</a>
+                                <a href="" class="dropdown-item">Women's Dresses</a>
+                                <a href="" class="dropdown-item">Baby's Dresses</a>
+                            </div>
+                        </div>
+                        <a href="" class="nav-item nav-link">Shirts</a>
+                        <a href="" class="nav-item nav-link">Jeans</a>
+                        <a href="" class="nav-item nav-link">Swimwear</a>
+                        <a href="" class="nav-item nav-link">Sleepwear</a>
+                        <a href="" class="nav-item nav-link">Sportswear</a>
+                        <a href="" class="nav-item nav-link">Jumpsuits</a>
+                        <a href="" class="nav-item nav-link">Blazers</a>
+                        <a href="" class="nav-item nav-link">Jackets</a>
+                        <a href="" class="nav-item nav-link">Shoes</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
+                    <a href="" class="text-decoration-none d-block d-lg-none">
+                        <span class="h1 text-uppercase text-dark bg-light px-2">Multi</span>
+                        <span class="h1 text-uppercase text-light bg-primary px-2 ml-n1">Shop</span>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="shop.html" class="nav-item nav-link">Products</a>
+                            <a href="detail.html" class="nav-item nav-link">Products Info</a>
+                            <a href="cart.html" class="nav-item nav-link">Coupons</a>
+                            <a href="checkout.html" class="nav-item nav-link">Account</a>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
+                            <a href="" class="btn px-0">
+                                <i class="fas fa-heart text-danger"></i>
+                                <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
+                            </a>
+                            <a href="" class="btn px-0 ml-3">
+                                <i class="fas fa-shopping-cart text-info"></i>
+                                <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid mb-3">
+        <div class="row px-xl-5">
+            <div class="col-lg-8">
+                <div id="header-carousel" class="carousel slide carousel-fade mb-30 mb-lg-0" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#header-carousel" data-slide-to="1"></li>
+                        <li data-target="#header-carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item position-relative active" style="height: 430px;">
+                            <img class="position-absolute w-100 h-100" src="images/Deals_on_.jpg" style="object-fit: cover;">
+                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                <div class="p-3" style="max-width: 700px;">
+                                    <h1 class="display-4 text-danger-emphasis mb-3 animate__animated animate__fadeInDown">Men's Fashion</h1>
+                                    <p class="mx-md-5 px-5 animate__animated animate__bounceIn fs-5 text-warning">Upto 60% Off</p>
+                                    <a class="btn btn-outline-info  btn-dark py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative" style="height: 430px;">
+                            <img class="position-absolute w-100 h-100" src="images/women's fashion.jpg" style="object-fit: cover;">
+                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                <div class="p-3" style="max-width: 700px;">
+                                    <h1 class="display-4 text-danger-emphasis mb-3 animate__animated animate__fadeInDown">Women's Fashion</h1>
+                                    <p class="mx-md-5 px-5 animate__animated animate__bounceIn fs-5 text-warning">Min 65% off</p>
+                                    <a class="btn btn-outline-info btn-dark py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative" style="height: 430px;">
+                            <img class="position-absolute w-100 h-100" src="images/kids fashion.jpg" style="object-fit: cover;">
+                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                <div class="p-3" style="max-width: 700px;">
+                                    <h1 class="display-4 text-danger-emphasis mb-3 animate__animated animate__fadeInDown">Kids Fashion</h1>
+                                    <p class="mx-md-5 px-5 animate__animated animate__bounceIn fs-5 text-warning">Special Sale for Kids</p>
+                                    <a class="btn btn-outline-info btn-dark py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product-offer mb-30" style="height: 200px;">
+                    <img class="img-fluid" src="images/amazon-tshirts.jpg" alt="">
+                    <div class="offer-text">
+                        <h6 class="text-white text-uppercase text-warning ">Save 20%</h6>
+                        <h3 class="text-success-emphasis mb-3">Special Offer</h3>
+                        <a href="" class="btn btn-dark btn-outline-success">Shop Now</a>
+                    </div>
+                </div>
+                <div class="product-offer mb-30" style="height: 200px;">
+                    <img class="img-fluid" src="images/men-fashion.png" alt="">
+                    <div class="offer-text">
+                        <h6 class="text-white text-uppercase text-warning">Save 20%</h6>
+                        <h3 class="text-info-emphasis mb-3">Special Offer</h3>
+                        <a href="" class="btn btn-dark btn-outline-success">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Featured Start -->
+    <div class="container-fluid pt-5">
+        <div class="row px-xl-5 pb-3">
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                    <h1 class="fa fa-check text-success m-0 mr-3"></h1>
+                    <h5 class="font-weight-semi-bold m-0">Quality Product</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                    <h1 class="fa fa-shipping-fast text-success m-0 mr-2"></h1>
+                    <h5 class="font-weight-semi-bold m-0">Free Shipping</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                    <h1 class="fas fa-exchange-alt text-success m-0 mr-3"></h1>
+                    <h5 class="font-weight-semi-bold m-0">14-Day Return</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                    <h1 class="fa fa-phone-volume text-success m-0 mr-3"></h1>
+                    <h5 class="font-weight-semi-bold m-0">24/7 Support</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured End -->
+
+
+    <!-- Categories Start -->
+    <div class="container-fluid pt-5">
+        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Categories</span></h2>
+        <div class="row px-xl-5 pb-3">
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/Men-Jacket.jpg" alt="">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Nehru Jacket for Men, Cotton</h6>
+                            <small class="text-body">Under ₹850</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/anarkali.jpg" alt="Women's anarkali suit">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Women's Anarkali suits</h6>
+                            <small class="text-body">Under ₹1500</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/safari-bag.jpg" alt="Bagpack">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Casual Bags for girls/boys</h6>
+                            <small class="text-body">Under ₹700</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/women-trousers.jpg" alt="Women's Trousers">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Casual Loose Fit Trousers for Women</h6>
+                            <small class="text-body">Under 400</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/sling-bag.jpg" alt="">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Sling & Shoulder Bag For Women</h6>
+                            <small class="text-body">Under ₹600</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/ear-buds.jpg" alt="">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>boAt Airdopes Wireless</h6>
+                            <small class="text-body">Under ₹1,499</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/Smartwatches-men-women.jpg" alt="Smartwatches-men-women">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>SmartWatches for Men and Women</h6>
+                            <small class="text-body">under ₹3,399</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/banarasi sari.jpg" alt="Sarees">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Category Name</h6>
+                            <small class="text-body">100 Products</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/pants.jpg" alt="">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Women's Relaxed Fit Viscose Pants</h6>
+                            <small class="text-body">Under ₹1000</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/Healthcare.jpg" alt="HealthCare">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>HealthCare</h6>
+                            <small class="text-body">Under 400</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/face-wash.jpg" alt="">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Face-washes & creams</h6>
+                            <small class="text-body">Under ₹300</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/women's regular fit-t-shirt.jpg" alt="T-shirt women">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Women's Fit T-shirt</h6>
+                            <small class="text-body"> Under ₹600</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/budha statue.jpg" alt="Home-decor">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Home-decor items</h6>
+                            <small class="text-body">Under ₹800</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/men-cargo.jpg" alt="">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Men Cargo Pants</h6>
+                            <small class="text-body">Under ₹750</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/luggage.jpg" alt="">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Luggages and Trolleys</h6>
+                            <small class="text-body">Under ₹5,000</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/PUMA MEN'S SHOES.jpg" alt="Men's shoes">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Men's Shoes</h6>
+                            <small class="text-body">Under ₹6,000</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/jwellery.png" alt="Silver-jewellery">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Women's Jewellery</h6>
+                            <small class="text-body">Under ₹750</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/heels.png" alt="">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Women's Heels & Sandals</h6>
+                            <small class="text-body">Under ₹750</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/bedsheets.jpg" alt="">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Cotton Bedsheet for Double Bed </h6>
+                            <small class="text-body">Under ₹900</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="">
+                    <div class="cat-item img-zoom d-flex align-items-center mb-4">
+                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="images/laptop.jpg" alt="laptop">
+                        </div>
+                        <div class="flex-fill pl-3">
+                            <h6>Laptops</h6>
+                            <small class="text-body">Starting ₹40,000</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Categories End -->
+
+
+    <!-- Products Start -->
+    <div class="container-fluid pt-5 pb-3">
+        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Featured Products</span></h2>
+        <div class="row px-xl-5">
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/Oversized T-shirt.jpg" alt="T-shirts-women">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Oversized Half-Sleeve Cotton T-shirt</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹480</h5><h6 class="text-muted ml-2"><del>M.R.P. ₹1,999</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small>(99)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/sport shoes.jpg" alt="Men's shoes">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Sport Walking Shoes for Men</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹1,499</h5><h6 class="text-muted ml-2"><del>₹4,999</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small>(95)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/Necklace-set.jpg" alt="Women's Jewellery">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Traditional Jewellery Sets</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹489</h5><h6 class="text-muted ml-2"><del>₹2,555</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small>(98)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/half-sleeve-t-shirt-men's.jpg" alt="Men's T-shirt">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Men's Half-Sleeve T-shirt</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹699</h5><h6 class="text-muted ml-2"><del>₹1000</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small>(99)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/table.jpg" alt="">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Halloween Theme Round Fitted,Dining Table</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹1,499</h5><h6 class="text-muted ml-2"><del>M.R.P.: ₹7,999</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small>(99)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/suit-set.jpg" alt="">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">BIBA Women Polyester Suit Set</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹2,394</h5><h6 class="text-muted ml-2"><del>M.R.P.: ₹4,995</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small>(99)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/Agaro-hair-dryer.jpg" alt="Hair-dryer">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Hair Dryer & Blower for Men & Women</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹1,427</h5><h6 class="text-muted ml-2"><del>M.R.P.: ₹2,595</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small>(99)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/titan.jpg" alt="Titan-watch">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Men's Watch</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹1,589</h5><h6 class="text-muted ml-2"><del>M.R.P.: ₹3,899</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small>(99)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/shirt.jpg" alt="Men's shirt">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Men's Formal Shirt</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹999</h5><h6 class="text-muted ml-2"><del>M.R.P.: ₹2,899</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small>(99)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/fan.jpg" alt="Fan">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Bajaj Ceiling Fans for Home</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹1,499</h5><h6 class="text-muted ml-2"><del>M.R.P.: ₹3000</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small>(98)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/screwdrivers.jpg" alt="screwdrivers">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Hammers & Screwdrivers</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹499</h5><h6 class="text-muted ml-2"><del>M.R.P.: ₹699</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small>(97)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/sunglass.jpg" alt="sunglassses">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Retro Square Classic Sunglasses</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹189</h5><h6 class="text-muted ml-2"><del>₹599</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small>(59)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Products End -->
+
+
+    <!-- Offer Start -->
+    <div class="container-fluid pt-5 pb-3">
+        <div class="row px-xl-5">
+            <div class="col-md-6">
+                <div class="product-offer mb-30" style="height: 300px;">
+                    <img class="img-fluid" src="images/SmartWatch.jpg" alt="">
+                    <div class="offer-text">
+                        <h6 class="text-white text-uppercase">Save 40%</h6>
+                        <h3 class="text-white mb-3">Special Offer</h3>
+                        <a href="" class="btn btn-info btn-outline-dark">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="product-offer mb-30" style="height: 300px;">
+                    <img class="img-fluid" src="images/_Action-adventures-stories-BAU._.jpg" alt="Books_Sale">
+                    <div class="offer-text">
+                        <h6 class="text-white text-uppercase">Save 40%</h6>
+                        <h3 class="text-white mb-3">Special Offer</h3>
+                        <a href="" class="btn btn-info btn-outline-dark">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Offer End -->
+
+
+    <!-- Products Start -->
+    <div class="container-fluid pt-5 pb-3">
+        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Recent Products</span></h2>
+        <div class="row px-xl-5">
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/Bedsheet.jpg" alt="Cotton-bedhseet">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Bedsheets with Cushion Covers</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹599</h5><h6 class="text-muted ml-2"><del>₹1000</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small>(96)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/printer.jpg" alt="printer">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Auto Duplex Printing,Print,Scan,Copy</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹19,499</h5><h6 class="text-muted ml-2"><del>₹23,050</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>                           
+                            <small>(94)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/sandal.jpg" alt=""WOmen Heels>
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Women's Slippers,Heels</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹499</h5><h6 class="text-muted ml-2"><del>₹999</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small>(97)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/suit.jpg" alt="Women's suit">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Women's Suit with Plazzo Set</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹1,000</h5><h6 class="text-muted ml-2"><del>₹4,000</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small>(98)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/men's regular fit t-shirt.jpg" alt="'Men's t-shirt">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Men's Regular Fit T-shirt</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹381</h5><h6 class="text-muted ml-2"><del>₹599</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small>(97)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/wall-clock.jpg" alt="wall-clock">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Wall Clock with moving Pendulam</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹900</h5><h6 class="text-muted ml-2"><del>₹1,499</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small>(99)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/Bootcut-jeans.jpg" alt="women jeans">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Women's Bootcut-Jeans</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹989</h5><h6 class="text-muted ml-2"><del>₹1,600</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small>(98)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/curtain.jpg" alt="curtains">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Beautiful Classy Curtains</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹899</h5><h6 class="text-muted ml-2"><del>₹2,000</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                           <small>(99)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/cameras.jpg" alt="cameras">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Cameras</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹1,300</h5><h6 class="text-muted ml-2"><del>₹3,550</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small>(99)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/speaker-coloured.jpg" alt="party-speaker">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Wireless Bluetooth Party Speaker(Black)</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹20,998</h5><h6 class="text-muted ml-2"><del>₹30,,999</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small>(99)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+
+                        <img class="img-fluid w-100" src="images/Smartwatches-men-women.jpg" alt="SmartWatches">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Smartwatches for Men-women</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>1,199</h5><h6 class="text-muted ml-2"><del>₹3,898</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>                          
+                            <small>(99)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/men's fit jeans.jpg" alt="Men's jeans">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">Men's Jeans</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>₹999</h5><h6 class="text-muted ml-2"><del>₹2,000</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="fa fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small class="far fa-star text-success mr-1"></small>
+                            <small>(99)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Products End -->
+
+
+    <!-- Vendor Start -->
+    <div class="container-fluid py-5">
+        <div class="row px-xl-5">
+            <div class="col">
+                <div class="owl-carousel vendor-carousel">
+                    <div class="bg-light p-4">
+                        <img src="images/Bewakoof_7._SX564_QL85_FMpng_.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="images/Juneberry_0._SX564_QL85_FMpng_.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="images/cutsport.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="images/Sadaa_2._SX564_QL85_FMpng_.png">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="images/Globus_11._S.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="images/Souled-store_.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="images/fable-street.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="images/WYO_10._SX564.png" alt="">
+                    </div>
+                    <div class="bg-light p-4">
+                        <img src="images/Enamor_1._SY530_QL85_FMpng_.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vendor End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-secondary mt-5 pt-5">
+        <div class="row px-xl-5 pt-5">
+            <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
+                <h5 class="text-light text-uppercase mb-4 fs-4 fw-bold">Reach Out to Us</h5>
+                <p class="mb-4 fs-6">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor. Rebum tempor no vero est magna amet no</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary-emphasis mr-3"></i>VILL-Beerkatal,Daunr/Pali,P.O.-Binak,Pauri Garhwal,Uttarakhand</p>
+                <p class="mb-2"><i class="fa fa-envelope text-primary-emphasis mr-3"></i>info@example.com</p>
+                <p class="mb-2"><i class="fa fa-phone-alt text-primary-emphasis mr-3"></i>+91 9849335201</p>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <h5 class="text-secondary text-uppercase mb-4 fs-4 fw-bold">Quick Shop</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-secondary mb-2 fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                            <a class="text-secondary mb-2 fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>Our Shop</a>
+                            <a class="text-secondary mb-2 fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a>
+                            <a class="text-secondary mb-2 fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
+                            <a class="text-secondary mb-2 fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
+                            <a class="text-secondary fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <h5 class="text-secondary text-uppercase mb-4 fs-4 fw-bold">Let Us Help You</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-secondary mb-2 fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>You Account</a>
+                            <a class="text-secondary mb-2 fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>Returns</a>
+                            <a class="text-secondary mb-2 fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>Recalls and product safety alerts</a>
+                            <a class="text-secondary mb-2 fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
+                            <a class="text-secondary mb-2 fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>100% Product Purchase Protection</a>
+                            <a class="text-secondary fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>Help</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <h5 class="text-secondary text-uppercase mb-4 fs-4 fw-bold">Get to Know Us</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-secondary mb-2 fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                            <a class="text-secondary mb-2 fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>Careers</a>
+                            <a class="text-secondary mb-2 fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>Press releases</a>
+                            <a class="text-secondary mb-2 fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
+                            <a class="text-secondary fs-6" href="#"><i class="fa fa-angle-right mr-2"></i>Protect and build your brand</a>
+                        </div>
+                      
+                        <h6 class="text-secondary text-uppercase mt-4 mb-3 fs-4 fw-bold">Follow Us</h6>
+                        <div class="d-flex">
+                            <a class="btn btn-info btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-info btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-info btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-info btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row border-top mx-xl-5 py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
+            <div class="col-md-6 px-xl-0">
+                <p class="mb-md-0 text-center text-md-left text-secondary">
+                    &copy; <a class="text-success" href="#">Domain</a>. All Rights Reserved. Designed
+                    by
+                    <a class="text-success" href="https://htmlcodex.com">HTML Codex</a>
+                </p>
+            </div>
+            <div class="col-md-6 px-xl-0 text-center text-md-right">
+                <img class="img-fluid" src="img/payments.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-success back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+
+</html>
